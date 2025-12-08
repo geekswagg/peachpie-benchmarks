@@ -1,4 +1,4 @@
-FROM httpd:2.4.43
+FROM httpd:2.4.66
 
 # Install MySQL client to enable database connectivity checks
 RUN apt-get update &&\
