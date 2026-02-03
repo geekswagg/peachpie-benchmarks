@@ -1,4 +1,4 @@
-FROM php:8.0.0-cli
+FROM php:8.5.3RC1-cli
 
 COPY . /bench
 WORKDIR /bench
